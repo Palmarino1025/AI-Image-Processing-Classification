@@ -1,0 +1,40 @@
+1: Image is going to be of a Blue Macaw
+
+2: The explaination makes sense for each line of code and what it does 
+
+Top-3 Predictions:
+1: macaw (0.89)
+2: toucan (0.01)
+3: African_grey (0.00)
+
+3: I had to install the Opencv import which had a conflict with the version of Numpy 
+    -I updated the requirements.txt for the version 
+    -I also needed to use Python3.11 instead of 3.12 for the install of Opencv
+    -it looks to be focusing on the center of the parrots neck in its heatmap
+
+4: the suggested occlude or masks for the pictures are 
+    Black Box / Solid Color Block:
+        Draw a rectangle (or another shape) with a solid color (like black) over the region you want to occlude.
+    Blurring:
+        Apply a blur (e.g., Gaussian blur) to a selected area. This obscures details while keeping the overall context.
+    Pixelation:
+        Reduce the resolution of a specific region by resizing it to a smaller dimension and then scaling it back up, resulting in a mosaic or pixelated effect.
+
+    for this i had to get the computer to first generate the photos correctly over the heatmap and then once i get the right photos i had it then run its classication 
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 44ms/step
+Black Occlusion Prediction: monitor (0.09)
+Occluded image saved as occluded_black.jpg
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 42ms/step
+Blur Occlusion Prediction: macaw (0.88)
+Occluded image saved as occluded_blur.jpg
+
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 43ms/step
+Pixelation Occlusion Prediction: macaw (0.32)
+Occluded image saved as occluded_pixelation.jpg
+
+5: The suggested explaination worked and I did understand it quite easily
+
+    the 3 suggested filters are Edge detection, sharpening and Embossing
+    my creative filter is going to be giving the parrot a nice smile
