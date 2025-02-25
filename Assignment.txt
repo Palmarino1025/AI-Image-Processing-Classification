@@ -37,4 +37,8 @@ Occluded image saved as occluded_pixelation.jpg
 5: The suggested explaination worked and I did understand it quite easily
 
     the 3 suggested filters are Edge detection, sharpening and Embossing
-    my creative filter is going to be giving the parrot a nice smile
+    my creative filter is going to be changing the picture into a pencil drawn image
+
+    i tried to do some more creative filters such as making a demonic look where i wanted to add horns to the parrot and have fire in the background but I could not get 
+    the AI to do what I wanted it to do. This was challenging because if I wanted to alter the picture at all I would have needed to the AI to find the head and since
+    there has not been much learning on the anatomy of the parrot photo it was having a hard time placing anything on it. 
